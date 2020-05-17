@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dft_priv_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Default Private Key"/>
+    <TextView
+        android:id="@+id/dft_pub_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Default Public Key"/>
+    <Button
+        android:id="@+id/gen_keys"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate Key pairs"/>
+    <Button
+        android:id="@+id/import_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Import default private key"/>
+</LinearLayout>
